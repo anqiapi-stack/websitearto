@@ -52,7 +52,7 @@
             {{ $locale === 'id' ? 'Kembali ke Beranda' : 'Back to Home' }}
         </a>
         <div class="max-w-4xl">
-            <h1 class="section-title text-[#FFC600] text-3xl md:text-5xl mb-4">{{ $pageTitle }}</h1>
+            <h1 class="section-title text-[#363434] text-3xl md:text-5xl mb-4">{{ $pageTitle }}</h1>
         @if($pageIntro)
         @php
             $introParagraphs = preg_split("/\R{2,}/", trim($pageIntro)) ?: [];
@@ -90,7 +90,7 @@
                             @endif
                     </div>
                     <div class="min-w-0 solutions-card-copy pt-1">
-                        <h2 class="text-[#FFC600] font-bold text-xl leading-tight">
+                        <h2 class="text-[#363434] font-bold text-xl leading-tight">
                             {{ $title }}
                         </h2>
                         @if($description)

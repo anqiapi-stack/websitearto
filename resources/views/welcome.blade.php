@@ -23,26 +23,20 @@ $missionPoints = $mission['mission_points'] ?? [];
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12 md:py-16 lg:py-20">
         <div class="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-16 items-center">
             <div>
-                <a href="{{ url('/') }}" class="inline-block mb-5 md:mb-6">
-                    <img
-                        src="{{ asset(config('site_content.footer.logo', 'images/logo.png')) }}"
-                        alt="ARTO PRIMA"
-                        class="block w-72 sm:w-80 md:w-[26rem] lg:w-[30rem] xl:w-[34rem] h-auto max-w-full"
-                    >
-                </a>
-                <h1 class="section-title text-[#FFC600] text-6xl sm:text-7xl md:text-8xl lg:text-9xl xl:text-[7rem] 2xl:text-[8rem] leading-[1.01] mb-6">{{ $hero['title'] ?? '' }}</h1>
+                <h1 class="section-title text-[#363434] text-[clamp(2.5rem,6vw,4.5rem)] font-bold leading-[1.1] tracking-tight text-balance mb-6">{{ $hero['title'] ?? '' }}</h1>
                 <p class="text-primary text-base md:text-lg lg:text-xl leading-relaxed mb-8 max-w-xl">{{ $hero['subtitle'] ?? '' }}</p>
                 <div class="flex flex-wrap gap-4">
                     <a href="{{ url('/#solutions') }}" class="btn btn-primary">{{ $hero['view_solutions'] ?? '' }}</a>
                     <a href="{{ url('/#mission') }}" class="btn btn-secondary">{{ $hero['our_mission'] ?? '' }}</a>
                 </div>
             </div>
-            <div class="hidden lg:block">
+            <div class="hidden lg:block" role="region" aria-roledescription="carousel" aria-label="Hero images">
                 <div class="relative aspect-video rounded-lg overflow-hidden hero-slider">
+                    <div aria-live="polite" aria-atomic="true" class="sr-only hero-slider__live"></div>
                     @foreach($heroImages ?? [] as $idx => $url)
                     <img
                         src="{{ $url }}"
-                        alt="{{ $hero['image_alt'] ?? '' }}"
+                        alt="{{ $hero['image_alt'] ?? '' }} — slide {{ $idx + 1 }} of {{ count($heroImages) }}"
                         class="hero-slider__img absolute inset-0 w-full h-full object-cover rounded-lg"
                         style="opacity:{{ $idx === 0 ? '1' : '0' }};z-index:{{ $idx === 0 ? '10' : '0' }};transition:opacity 0.7s ease-in-out;"
                         loading="{{ $idx === 0 ? 'eager' : 'lazy' }}"
@@ -50,16 +44,26 @@ $missionPoints = $mission['mission_points'] ?? [];
                         aria-hidden="{{ $idx === 0 ? 'false' : 'true' }}"
                     >
                     @endforeach
+                    @if(count($heroImages ?? []) > 1)
+                    <button type="button" class="hero-slider__prev absolute left-2 top-1/2 -translate-y-1/2 z-20 w-9 h-9 rounded-full bg-[#363434]/60 text-white flex items-center justify-center hover:bg-[#363434]/80 transition-colors focus:outline-none focus-visible:ring-2 focus-visible:ring-[#FFC600]" aria-label="Previous slide">
+                        <svg class="w-5 h-5" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M15 19l-7-7 7-7"/></svg>
+                    </button>
+                    <button type="button" class="hero-slider__next absolute right-2 top-1/2 -translate-y-1/2 z-20 w-9 h-9 rounded-full bg-[#363434]/60 text-white flex items-center justify-center hover:bg-[#363434]/80 transition-colors focus:outline-none focus-visible:ring-2 focus-visible:ring-[#FFC600]" aria-label="Next slide">
+                        <svg class="w-5 h-5" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M9 5l7 7-7 7"/></svg>
+                    </button>
+                    @endif
                 </div>
                 @if(count($heroImages ?? []) > 1)
-                <div class="hero-slider-dots" style="display:flex;justify-content:center;gap:8px;margin-top:12px;">
+                <div class="hero-slider-dots" style="display:flex;justify-content:center;gap:8px;margin-top:12px;" role="tablist" aria-label="Slide controls">
                     @foreach($heroImages ?? [] as $idx => $url)
                     <button
                         type="button"
+                        role="tab"
                         class="hero-dot"
                         style="width:10px;height:10px;border-radius:50%;border:none;cursor:pointer;padding:0;background:{{ $idx === 0 ? '#FFC600' : '#9ca3af' }};transform:{{ $idx === 0 ? 'scale(1.15)' : 'scale(1)' }};transition:all 0.3s;"
                         data-dot-index="{{ $idx }}"
                         aria-label="Slide {{ $idx + 1 }}"
+                        aria-selected="{{ $idx === 0 ? 'true' : 'false' }}"
                     ></button>
                     @endforeach
                 </div>
@@ -141,7 +145,7 @@ $parallaxAboutMissionExists = $parallaxAboutMission && file_exists(public_path($
 
 <section id="solutions" class="py-16 md:py-24 bg-[#f8f8f8] border-y border-neutral-200" aria-labelledby="solutions-heading">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <h2 id="solutions-heading" class="section-title text-[#FFC600] text-2xl md:text-4xl mb-4">{{ $solutionsLoc['heading'] ?? '' }}</h2>
+        <h2 id="solutions-heading" class="section-title text-[#363434] text-2xl md:text-4xl mb-4">{{ $solutionsLoc['heading'] ?? '' }}</h2>
         <p class="text-primary max-w-2xl mb-8 md:mb-12 text-sm md:text-base">{{ $solutionsLoc['subtitle'] ?? '' }}</p>
         <div class="flex flex-col gap-12 md:gap-16 lg:gap-20">
             <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 md:gap-8">
@@ -161,7 +165,7 @@ $parallaxAboutMissionExists = $parallaxAboutMission && file_exists(public_path($
                         @endif
                     </div>
                     <div class="p-5 md:p-6 flex flex-col flex-1">
-                        <h3 class="font-sans font-bold text-[#FFC600] text-base md:text-lg mb-3">{{ $itemLoc['title'] ?? '' }}</h3>
+                        <h3 class="font-sans font-bold text-[#363434] text-base md:text-lg mb-3">{{ $itemLoc['title'] ?? '' }}</h3>
                         @if(count($points) > 0)
                         <ul class="space-y-1.5 flex-1 text-[#363434]/85 text-sm leading-relaxed list-disc list-inside">
                             @foreach($points as $point)
@@ -294,14 +298,19 @@ $ctaBgExists = $ctaBgPath && file_exists(public_path($ctaBgPath));
 @push('scripts')
 <script>
 (function() {
+    var carousel = document.querySelector('[aria-roledescription="carousel"]');
     var container = document.querySelector('.hero-slider');
     if (!container) return;
     var imgs = Array.from(container.querySelectorAll('.hero-slider__img'));
     if (imgs.length < 2) return;
     var dots = Array.from(document.querySelectorAll('.hero-dot'));
+    var liveRegion = container.querySelector('.hero-slider__live');
+    var prevBtn = container.querySelector('.hero-slider__prev');
+    var nextBtn = container.querySelector('.hero-slider__next');
 
     var current = 0;
     var timer = null;
+    var paused = false;
 
     function goTo(next) {
         imgs[current].style.opacity = '0';
@@ -310,6 +319,7 @@ $ctaBgExists = $ctaBgPath && file_exists(public_path($ctaBgPath));
         if (dots[current]) {
             dots[current].style.background = '#9ca3af';
             dots[current].style.transform = 'scale(1)';
+            dots[current].setAttribute('aria-selected', 'false');
         }
 
         current = next;
@@ -320,23 +330,66 @@ $ctaBgExists = $ctaBgPath && file_exists(public_path($ctaBgPath));
         if (dots[current]) {
             dots[current].style.background = '#FFC600';
             dots[current].style.transform = 'scale(1.15)';
+            dots[current].setAttribute('aria-selected', 'true');
+        }
+
+        // Announce to screen readers
+        if (liveRegion) {
+            liveRegion.textContent = 'Slide ' + (current + 1) + ' of ' + imgs.length;
         }
     }
 
-    function startTimer() {
-        timer = setInterval(function() {
-            goTo((current + 1) % imgs.length);
-        }, 5000);
+    function goPrev() {
+        goTo((current - 1 + imgs.length) % imgs.length);
+    }
+    function goNext() {
+        goTo((current + 1) % imgs.length);
     }
 
+    function startTimer() {
+        stopTimer();
+        timer = setInterval(function() {
+            if (!paused) goNext();
+        }, 5000);
+    }
+    function stopTimer() {
+        if (timer) { clearInterval(timer); timer = null; }
+    }
+
+    // Prev/next buttons
+    if (prevBtn) prevBtn.addEventListener('click', function() { stopTimer(); goPrev(); startTimer(); });
+    if (nextBtn) nextBtn.addEventListener('click', function() { stopTimer(); goNext(); startTimer(); });
+
+    // Dot navigation
     dots.forEach(function(dot, i) {
         dot.addEventListener('click', function() {
             if (i === current) return;
-            clearInterval(timer);
+            stopTimer();
             goTo(i);
             startTimer();
         });
     });
+
+    // Pause on hover and focus
+    if (carousel) {
+        carousel.addEventListener('mouseenter', function() { paused = true; });
+        carousel.addEventListener('mouseleave', function() { paused = false; });
+        carousel.addEventListener('focusin', function() { paused = true; });
+        carousel.addEventListener('focusout', function() { paused = false; });
+    }
+
+    // Keyboard navigation (arrow keys when carousel or its children are focused)
+    if (carousel) {
+        carousel.addEventListener('keydown', function(e) {
+            if (e.key === 'ArrowLeft') { e.preventDefault(); stopTimer(); goPrev(); startTimer(); }
+            if (e.key === 'ArrowRight') { e.preventDefault(); stopTimer(); goNext(); startTimer(); }
+        });
+    }
+
+    // Respect reduced motion preference
+    if (window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+        return; // Don't autoplay
+    }
 
     startTimer();
 })();

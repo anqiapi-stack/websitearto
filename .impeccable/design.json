@@ -1,0 +1,109 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-06-03T15:30:00Z",
+  "title": "Design System: ARTO PRIMA",
+  "extensions": {
+    "colorMeta": {
+      "primary": {
+        "role": "primary",
+        "displayName": "Sovereign Gold",
+        "canonical": "#FFC600",
+        "tonalRamp": ["#4d3b00", "#806300", "#b38a00", "#e6b200", "#FFC600", "#ffd84d", "#ffe999", "#fff6e6"]
+      },
+      "neutral-dark": {
+        "role": "neutral",
+        "displayName": "Deep Charcoal",
+        "canonical": "#363434",
+        "tonalRamp": ["#141313", "#262525", "#363434", "#575454", "#787474", "#999595", "#bab5b5", "#dbd7d7"]
+      },
+      "neutral-light": {
+        "role": "neutral",
+        "displayName": "Off-White",
+        "canonical": "#f8f8f8",
+        "tonalRamp": ["#333333", "#555555", "#888888", "#aaaaaa", "#cccccc", "#e5e5e5", "#f0f0f0", "#f8f8f8"]
+      }
+    },
+    "typographyMeta": {
+      "display": { "displayName": "Display", "purpose": "Hero and major section titles." },
+      "headline": { "displayName": "Headline", "purpose": "Section headings." },
+      "title": { "displayName": "Title", "purpose": "Card headings and minor headers." },
+      "body": { "displayName": "Body", "purpose": "General reading text." },
+      "label": { "displayName": "Label", "purpose": "Buttons, metadata, and form titles." }
+    },
+    "shadows": [
+      { "name": "card-hover", "value": "0 4px 12px rgba(54, 52, 52, 0.08)", "purpose": "Subtle elevation lift for interactive cards." }
+    ],
+    "motion": [
+      { "name": "transition-standard", "value": "all 0.2s ease-in-out", "purpose": "Default duration and easing for buttons and link hovers." }
+    ],
+    "breakpoints": [
+      { "name": "sm", "value": "640px" },
+      { "name": "md", "value": "768px" },
+      { "name": "lg", "value": "1024px" },
+      { "name": "xl", "value": "1280px" }
+    ]
+  },
+  "components": [
+    {
+      "name": "Primary Button",
+      "kind": "button",
+      "refersTo": "button-primary",
+      "description": "Standard action button used for main calls to action like contact modals and links.",
+      "html": "<button class=\"ds-btn-primary\">CONTACT US</button>",
+      "css": ".ds-btn-primary { background-color: #FFC600; color: #363434; padding: 12px 24px; font-size: 0.875rem; font-weight: 600; line-height: 1.25; border: 1px solid #FFC600; border-radius: 4px; cursor: pointer; transition: background-color 0.2s ease, border-color 0.2s ease; text-transform: uppercase; } .ds-btn-primary:hover { background-color: #e6b200; border-color: #e6b200; }"
+    },
+    {
+      "name": "Secondary Button",
+      "kind": "button",
+      "refersTo": "button-secondary",
+      "description": "Secondary action button for less prominent triggers.",
+      "html": "<button class=\"ds-btn-secondary\">OUR MISSION</button>",
+      "css": ".ds-btn-secondary { background-color: transparent; color: #363434; padding: 12px 24px; font-size: 0.875rem; font-weight: 600; line-height: 1.25; border: 2px solid #363434; border-radius: 4px; cursor: pointer; transition: background-color 0.2s ease, color 0.2s ease; text-transform: uppercase; } .ds-btn-secondary:hover { background-color: #363434; color: #ffffff; }"
+    },
+    {
+      "name": "Feature Card",
+      "kind": "card",
+      "refersTo": "card",
+      "description": "Used to display solutions and features in structured grids.",
+      "html": "<div class=\"ds-card\"><div class=\"ds-card-img\"></div><div class=\"ds-card-body\"><h3 class=\"ds-card-title\">Secure Network & Data Centers</h3><p class=\"ds-card-text\">We design and deploy secure, high-availability network and data center infrastructure for defense and government environments.</p></div></div>",
+      "css": ".ds-card { background-color: #ffffff; border: 1px solid #e0e0e0; border-radius: 8px; overflow: hidden; display: flex; flex-direction: column; width: 300px; transition: border-color 0.2s ease, box-shadow 0.2s ease; } .ds-card:hover { border-color: #d0d0d0; box-shadow: 0 4px 12px rgba(54, 52, 52, 0.08); } .ds-card-img { height: 160px; background-color: #ebebeb; } .ds-card-body { padding: 20px; } .ds-card-title { margin: 0 0 10px 0; font-family: 'Source Sans 3', sans-serif; font-size: 1.125rem; font-weight: 700; color: #FFC600; } .ds-card-text { margin: 0; font-family: 'Source Sans 3', sans-serif; font-size: 0.875rem; line-height: 1.5; color: #363434; opacity: 0.85; }"
+    }
+  ],
+  "narrative": {
+    "northStar": "The Institutional Shield",
+    "overview": "The Institutional Shield represents PT. Artomoro Prima Internasional's commitment to defense-grade security, structural precision, and traditional corporate reliability. Our design philosophy prioritizes robust stability, legibility, and serious execution over temporary visual trends. It utilizes strong grid alignments, clear spacing rhythm, and high typographic contrast to evoke safety, sovereignty, and trust. The system rejects loose drawings, video game neon accents, and flat repetitive layouts, replacing them with structured depth and solid visual hierarchy.",
+    "keyCharacteristics": [
+      "Rigid layouts and clear containment structures",
+      "High typographic contrast and balanced line lengths",
+      "Strategic use of Sovereign Gold as a focused anchor against Deep Charcoal",
+      "Tactile depth using soft, realistic shadows"
+    ],
+    "rules": [
+      {
+        "name": "The Gold Anchor Rule",
+        "body": "Sovereign Gold (#FFC600) is reserved for highlighting primary interactive elements, key titles, and important accents. It must not exceed 10% of any screen surface to preserve its significance and authoritative voice.",
+        "section": "colors"
+      },
+      {
+        "name": "The Balanced Line Rule",
+        "body": "Keep body prose line lengths strictly capped at 65-75ch to maintain optimal readability for government and defense clients.",
+        "section": "typography"
+      },
+      {
+        "name": "The Tactile Response Rule",
+        "body": "Card elements and primary buttons must respond to user interactions with smooth, slight elevation lifts and border color shifts, providing physical reassurance of state change.",
+        "section": "elevation"
+      }
+    ],
+    "dos": [
+      "Do use high-contrast text combinations to ensure clear readability.",
+      "Do apply standard, solid outlines and soft shadows for interactive elements.",
+      "Do preserve generous spacing around headers and sections to create structural breathing room."
+    ],
+    "donts": [
+      "Don't use side-stripe borders as colored accents on cards, lists, or alerts.",
+      "Don't use gradient text or decorative text clips.",
+      "Don't use excessive rounding on cards; cards must top out at 8px (0.5rem) radius."
+    ]
+  }
+}
