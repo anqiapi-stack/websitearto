@@ -31,7 +31,7 @@
         <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
             <div class="flex h-16 md:h-20 items-center justify-between gap-4">
                 <a href="{{ url('/') }}" class="inline-block shrink-0">
-                    <img src="{{ asset(config('site_content.footer.logo', 'images/logo.png')) }}" alt="ARTO PRIMA" class="h-10 md:h-12 w-auto">
+                    <img src="{{ asset(config('site_content.footer.logo', 'images/logo.png')) }}" alt="ARTO PRIMA" class="h-4 md:h-6 w-auto">
                 </a>
                 <nav class="site-header-nav-desktop items-center gap-4 lg:gap-6" aria-label="Main">
                     <a href="{{ url('/') }}" class="text-sm font-medium text-primary hover:opacity-80 transition-opacity">{{ site_content('nav', 'home') }}</a>
@@ -147,6 +147,9 @@
     })();
     </script>
     @stack('scripts')
+<!-- impeccable-live-start -->
+<script src="http://localhost:8400/live.js"></script>
+<!-- impeccable-live-end -->
 </body>
 
 </html>

@@ -23,7 +23,10 @@ $missionPoints = $mission['mission_points'] ?? [];
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12 md:py-16 lg:py-20">
         <div class="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-16 items-center">
             <div>
-                <h1 class="section-title text-[#363434] text-[clamp(2.5rem,6vw,4.5rem)] font-bold leading-[1.1] tracking-tight text-balance mb-6">{{ $hero['title'] ?? '' }}</h1>
+                <h1 class="section-title hero-logo mb-6">
+                    <img src="{{ asset('images/logo.png') }}" alt="ARTO PRIMA">
+                    <span class="sr-only">ARTO PRIMA</span>
+                </h1>
                 <p class="text-primary text-base md:text-lg lg:text-xl leading-relaxed mb-8 max-w-xl">{{ $hero['subtitle'] ?? '' }}</p>
                 <div class="flex flex-wrap gap-4">
                     <a href="{{ url('/#solutions') }}" class="btn btn-primary">{{ $hero['view_solutions'] ?? '' }}</a>
