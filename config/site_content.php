@@ -31,15 +31,15 @@ return [
     'hero' => [
         'image' => 'images/hero-image.jpg',
         'en' => [
-            'title' => 'Technological Sovereignty',
-            'subtitle' => 'Precision technology and advanced surveillance for national security',
+            'title' => 'Technology Transformation and Sovereignty',
+            'subtitle' => 'Driving the transformation of strategic sectors through modern technology solutions',
             'view_solutions' => 'View Solutions',
             'our_mission' => 'Our Mission',
             'image_alt' => 'High-precision digital transformation',
         ],
         'id' => [
-            'title' => 'Kedaulatan Teknologi',
-            'subtitle' => 'Memberdayakan keamanan nasional melalui transformasi digital presisi tinggi dan integrasi pengawasan canggih dalam ekosistem teknologi pertahanan global.',
+            'title' => 'Transformasi Teknologi dan Kedaulatan',
+            'subtitle' => 'Mendorong transformasi sektor strategis melalui solusi teknologi modern',
             'view_solutions' => 'Lihat Solusi',
             'our_mission' => 'Misi Kami',
             'image_alt' => 'Transformasi digital presisi tinggi',
@@ -104,7 +104,7 @@ return [
         'id' => [
             'heading' => 'Visi & Misi',
             'vision_label' => 'Visi',
-            'vision' => 'Menjadi mitra integrasi sistem dan teknologi terkemuka di Indonesia, Berperan sebagai integrator teknologi utama dalam menjaga sektor strategis dan pertahanan Indonesia, membangun ketahanan digital absolut',
+            'vision' => 'Menjadi mitra integrasi sistem dan teknologi terdepan melalui inovasi, transformasi digital, dan ketahanan digital yang berkelanjutan',
             'mission_label' => 'Misi',
             'mission_points' => [
                 'Mitra: Membangun aliansi strategis di seluruh institusi vital Indonesia.',
