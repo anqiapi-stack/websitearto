@@ -63,7 +63,7 @@ return [
             'heading' => 'About ARTO PRIMA',
             'subheading' => 'Growing Strong, Continuously Developing',
             'intro' => 'Integrating secure technologies. Safeguarding strategic operations',
-            'body' => 'ARTO PRIMA is dedicated to empowering Indonesia’s vital national infrastructures. We provide, manage, and integrate secure IT systems tailored for mission-critical operations. Through advanced technology solutions, we help our clients maintain digital resilience and support national sovereignty across key strategic sectors (including defense, government, transportation, and logistics).',
+            'body' => 'ARTO PRIMA is dedicated to empowering Indonesia’s vital national infrastructures. We provide, manage, and integrate secure IT systems tailored for mission-critical operations. Through advanced technology solutions, we help our clients maintain digital resilience and support national sovereignty across key strategic sectors.',
             'cta' => 'Learn More',
             'image_alt' => 'About ARTO PRIMA',
             'sidebar_title' => 'About Us',
@@ -73,7 +73,7 @@ return [
             'heading' => 'Tentang ARTO PRIMA',
             'subheading' => 'Bertumbuh Kuat, Berinovasi Tanpa Henti',
             'intro' => 'Mengintegrasikan teknologi aman. Melindungi operasi strategis',
-            'body' => 'ARTO PRIMA berdedikasi untuk memberdayakan infrastruktur nasional Indonesia yang vital. Kami menyediakan, mengelola, dan mengintegrasikan sistem IT aman yang disesuaikan untuk operasi mission-critical. Melalui solusi teknologi, kami membantu klien kami mempertahankan ketahanan digital dan mendukung kedaulatan nasional di seluruh sektor strategis utama (termasuk pertahanan, pemerintahan, transportasi, dan logistik)',
+            'body' => 'ARTO PRIMA berdedikasi untuk memberdayakan infrastruktur nasional Indonesia yang vital. Kami menyediakan, mengelola, dan mengintegrasikan sistem IT aman yang disesuaikan untuk operasi mission-critical. Melalui solusi teknologi, kami membantu klien kami mempertahankan ketahanan digital dan mendukung kedaulatan nasional di seluruh sektor strategis utama',
             'cta' => 'Pelajari Lebih Lanjut',
             'image_alt' => 'Tentang ARTO PRIMA',
             'sidebar_title' => 'Tentang Kami',
@@ -125,13 +125,13 @@ return [
                 'image' => 'images/solutions/secure-network.jpg',
                 'en' => [
                     'title' => 'Secure Network & Data Centers',
-                    'description' => 'We design and deploy secure, high-availability network and data center infrastructure for defence and government environments. Our solutions cover campus and metro networks, SD-WAN/SASE, hyperconverged infrastructure, and full DC/DR site builds to meet classified and mission-critical requirements.',
-                    'points' => ['Campus/metro networks', 'SD-WAN/SASE', 'Hyperconverged infra', 'DC/DR site build'],
+                    'description' => 'We provide secure, high-availability network and data center infrastructure for strategic sectors. Our solutions cover WAN and LAN networks, SD-WAN/SASE, hyperconverged infrastructure components, and full DC/DR site.',
+                    'points' => ['Stable and encrypted Site-to-Site Connectivity', 'Centralized network management & Flexible Access', 'Efficient and consolidated IT Infrastructure', 'Primary and Backup Data Center Facilities'],
                 ],
                 'id' => [
                     'title' => 'Jaringan Aman & Pusat Data',
-                    'description' => 'Kami merancang dan menggelar infrastruktur jaringan dan data center yang aman dan berkesinambungan tinggi untuk lingkungan pertahanan dan pemerintah. Solusi kami mencakup jaringan kampus dan metro, SD-WAN/SASE, infrastruktur hyperconverged, serta pembangunan lengkap DC/DR site untuk memenuhi kebutuhan terklasifikasi dan mission-critical.',
-                    'points' => ['Jaringan kampus/metro', 'SD-WAN/SASE', 'Infrastruktur hyperconverged', 'Pembangunan DC/DR site'],
+                    'description' => 'Kami menyediakan infrastruktur jaringan dan data center yang aman dan berkesinambungan tinggi untuk sektor strategis. Solusi kami mencakup jaringan WAN dan LAN, SD-WAN/SASE, komponen infrastruktur jaringan dan data center.',
+                    'points' => ['Konektivitas Antar Lokasi yang Stabil dan Terenkripsi', 'Manajemen Jaringan Terpusat dengan Akses Fleksibel', 'Infrastruktur IT yang Efisien dan Terkonsolidasi', 'Fasilitas Data Center Primer dan Cadangan'],
                 ],
             ],
             [
@@ -139,25 +139,25 @@ return [
                 'en' => [
                     'title' => 'Cybersecurity & Zero-Trust',
                     'description' => 'We help build and operate security operations capabilities and zero-trust architectures. From SOC build-out, SIEM, EDR/XDR, and IAM/PAM to DLP and incident response retainers, we support defence and government clients in protecting critical assets and data.',
-                    'points' => ['SOC build-out', 'SIEM', 'EDR/XDR', 'IAM & PAM', 'DLP', 'Incident response retainers'],
+                    'points' => ['Security Operations Center', 'Incident Detection and Automatic Response', 'Identity and Access Management', 'Data Leakage Prevention', 'Incident Response Services'],
                 ],
                 'id' => [
-                    'title' => 'Keamanan Siber & Arsitektur Kepercayaan Nol',
-                    'description' => 'Kami membantu membangun dan mengoperasikan kemampuan security operations serta arsitektur zero-trust. Mulai dari SOC build-out, SIEM, EDR/XDR, IAM/PAM, DLP, hingga retainer respons insiden, kami mendukung klien pertahanan dan pemerintah dalam melindungi aset dan data kritis.',
-                    'points' => ['SOC build-out', 'SIEM', 'EDR/XDR', 'IAM & PAM', 'DLP', 'Incident response retainers'],
+                    'title' => 'Keamanan Siber & Arsitektur Zero Trust',
+                    'description' => 'Kami membantu membangun dan mengoperasikan kemampuan security operations serta arsitektur zero-trust. kami mendukung pelanggan kami melindungi aset dan data kritis.',
+                    'points' => ['Pemantauan Ancaman Berkelanjutan', 'Deteksi & Respons Insiden Otomatis', 'Manajemen Identitas dan Hak Akses', 'Pencegahan Kebocoran Data', 'Layanan Penanganan Insiden Siber'],
                 ],
             ],
             [
                 'image' => 'images/solutions/command-control.png',
                 'en' => [
-                    'title' => 'Command, Control, and Situational Awareness',
+                    'title' => 'Command, Control, and Oversight',
                     'description' => 'We deliver integrated command, control, and situational awareness solutions including operations rooms, video walls, geospatial integration, communications gateways, and UAV/sensor data pipelines to support real-time decision-making in defence and security operations.',
-                    'points' => ['Ops rooms', 'Video walls', 'Geospatial integration', 'Comms gateways', 'UAV/sensor data pipelines'],
+                    'points' => ['Command center', 'Large scale operational data visualization', 'Geospatial and field data integration', 'Cross functional communications coordination', 'Real time sensor and UAV data aggregation'],
                 ],
                 'id' => [
-                    'title' => 'Komando, Kendali & Kesadaran Situasional',
+                    'title' => 'Pusat Kendali dan Pemantauan Terpadu',
                     'description' => 'Kami menyediakan solusi komando, kendali, dan kesadaran situasional terintegrasi termasuk ruang operasi, video walls, integrasi geospasial, gateway komunikasi, dan pipa data UAV/sensor untuk mendukung pengambilan keputusan waktu-nyata dalam operasi pertahanan dan keamanan.',
-                    'points' => ['Ruangan operasi', 'Video walls', 'Integrasi geospasial', 'Comms gateways', 'Pipa data UAV/sensor'],
+                    'points' => ['Ruangan operasi terpadu', 'Visualisasi data operasional skala besar', 'Integrasi data geospasial dan lapangan', 'Koordinasi komunikasi lintas fungsi', 'Agregasi data sensor dan UAV secara real-time'],
                 ],
             ],
             [
@@ -201,39 +201,39 @@ return [
             ],
         ],
         'en' => [
-            'heading' => 'Solutions for National Strategic Sovereignty',
-            'subtitle' => 'Empowering Indonesia with mission-critical technology for defense, intelligence, and digital transformation.',
+            'heading' => 'Technology Solutions for National Strategic Sovereignty',
+            'subtitle' => 'Empowering Indonesia through technological innovation for strategic sectors.',
             'explore' => 'Explore Solution',
         ],
         'id' => [
-            'heading' => 'Solusi untuk Kedaulatan Strategis Nasional',
-            'subtitle' => 'Memberdayakan Indonesia dengan teknologi yang kritis untuk pertahanan, intelijen, dan transformasi digital.',
+            'heading' => 'Solusi Teknologi untuk Kedaulatan Strategis Nasional',
+            'subtitle' => 'Memperkuat Indonesia melalui inovasi teknologi untuk sektor strategis.',
             'explore' => 'Jelajahi Solusi',
         ],
         // Halaman Solusi (/solutions) — intro untuk halaman detail
         'page_en' => [
             'title' => 'Solutions',
-            'intro' => 'ARTO PRIMA delivers integrated technology and digital transformation solutions for government, defence, and strategic enterprises. Below we outline our core solution areas in detail.',
+            'intro' => 'ARTO PRIMA delivers integrated technology and digital transformation solutions for strategic enterprises. Below we outline our core solution areas in detail.',
         ],
         'page_id' => [
             'title' => 'Solusi',
-            'intro' => 'ARTO PRIMA menyediakan solusi teknologi terintegrasi dan transformasi digital untuk pemerintah, pertahanan, dan perusahaan strategis. Di bawah ini kami uraikan area solusi utama kami secara rinci.',
+            'intro' => 'ARTO PRIMA menyediakan solusi teknologi terintegrasi dan transformasi digital untuk sektor strategis. Di bawah ini kami uraikan area solusi utama kami secara rinci.',
         ],
     ],
 
-    /* ========== UNIFIED SECURITY ========== */
+    /* ========== TEHCNOLOGICAL CHALLENGE ========== */
     'unified' => [
         'image' => 'images/unified.jpg',
         'en' => [
-            'heading' => 'Unified Security',
-            'body' => 'Artomoro Prima Internasional integrates advanced surveillance and intelligence systems to secure national sovereignty. Our C4ISR solutions provide a unified command and control framework, enabling real-time decision-making in complex and evolving defense environments.',
-            'cta' => 'Get in Touch',
+            'heading' => 'What is Your Current Technological Challenge?',
+            'body' => 'We understand that every agency has its own level of complexity. ARTO PRIMA is present and ready to accompany you as a reliable system integration partner. Convey the challenges you face, and let our expert team design technology solutions that are secure, efficient, and targeted.',
+            'cta' => 'Let\'s Discuss Your Needs',
             'image_alt' => 'C4ISR / Command & Control visual',
         ],
         'id' => [
-            'heading' => 'Keamanan Terpadu',
-            'body' => 'Artomoro Prima Internasional mengintegrasikan sistem pengawasan dan intelijen canggih untuk mengamankan kedaulatan nasional. Solusi C4ISR kami menyediakan kerangka komando dan kendali terpadu, memungkinkan pengambilan keputusan waktu-nyata dalam lingkungan pertahanan yang kompleks dan terus berkembang.',
-            'cta' => 'Hubungi Kami',
+            'heading' => 'Apa Tantangan Teknologi Anda Saat Ini?',
+            'body' => 'Kami mengerti bahwa setiap instansi memiliki tingkat kompleksitas tersendiri. ARTO PRIMA hadir dan siap mendampingi Anda sebagai mitra integrasi sistem yang dapat diandalkan. Sampaikan kendala yang Anda hadapi, dan biarkan tim ahli kami merancang solusi teknologi yang aman, efisien, dan tepat sasaran.',
+            'cta' => 'Mari Diskusikan Kebutuhan Anda',
             'image_alt' => 'Visual C4ISR / Komando & Kendali',
         ],
     ],

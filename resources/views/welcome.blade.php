@@ -192,7 +192,7 @@ $parallaxAboutMissionExists = $parallaxAboutMission && file_exists(public_path($
         <div class="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-16 items-center">
             <div>
                 <h2 id="unified-heading" class="section-title text-[#FFC600] text-2xl md:text-4xl mb-6">{{ $unified['heading'] ?? '' }}</h2>
-                <p class="text-[#d0d0d0] text-sm md:text-base leading-relaxed max-w-xl mb-6">{{ $unified['body'] ?? '' }}</p>
+                <p class="text-[#d0d0d0] text-sm md:text-base leading-relaxed max-w-xl mb-6 text-justify">{{ $unified['body'] ?? '' }}</p>
                 <div class="accent-line"></div>
                 <a href="{{ url('/#contact') }}" class="btn btn-outline-light mt-4">{{ $unified['cta'] ?? '' }}</a>
             </div>
@@ -291,10 +291,7 @@ $ctaBgExists = $ctaBgPath && file_exists(public_path($ctaBgPath));
                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
                 </svg>
                 {{ $contact['contact_us'] ?? 'Contact Us' }}
-                <svg class="w-5 h-5 shrink-0 opacity-0" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
-                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
-                </svg>
-            </button>
+                </button>
         </div>
     </div>
 </section>
