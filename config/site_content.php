@@ -187,7 +187,7 @@ return [
                 ],
             ],
             [
-                'image' => 'images/solutions/Network Infrastructure & Connectivity.jpg',
+                'image' => 'images/solutions/infrastruktur-jaringan.jpg',
                 'en' => [
                     'title' => 'Network Infrastructure & Connectivity',
                     'description' => 'Your operational backbone starts with a reliable physical infrastructure. We provide end-to-end hardware integration services, ranging from the deployment of structured cabling systems, installation of high-speed connectivity terminals, to the unification of communication networks, ensuring no blind spots within your field operations.',
