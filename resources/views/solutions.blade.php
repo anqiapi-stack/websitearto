@@ -24,7 +24,7 @@
     }
     .solutions-card-thumb {
         width: 172px;
-        height: 118px;
+        height: 200px;
         flex-shrink: 0;
     }
     @media (max-width: 767px) {
@@ -97,7 +97,7 @@
                         <div class="mt-4 space-y-4">
                             @foreach($descParagraphs as $pIdx => $para)
                                 @if($pIdx < 2)
-                                <p class="text-[#363434]/90 text-sm leading-relaxed">
+                                <p class="text-[#363434]/90 text-sm leading-relaxed text-justify">
                                     {{ $para }}
                                 </p>
                                 @endif

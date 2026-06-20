@@ -126,11 +126,11 @@ $parallaxAboutMissionExists = $parallaxAboutMission && file_exists(public_path($
                 <div class="max-w-xl space-y-8">
                     <div>
                         <h3 class="text-[#FFC600] font-bold text-base md:text-lg mb-2">{{ $mission['vision_label'] ?? 'Vision' }}</h3>
-                        <p class="text-[#d0d0d0] text-sm md:text-base leading-relaxed mb-10">{{ $mission['vision'] ?? '' }}</p>
+                        <p class="text-[#d0d0d0] text-sm md:text-base leading-relaxed mb-10" style="text-align: justify;">{{ $mission['vision'] ?? '' }}</p>
                     </div>
                     <div>
                         <h3 class="text-[#FFC600] font-bold text-base md:text-lg mb-4">{{ $mission['mission_label'] ?? 'Mission' }}</h3>
-                        <ul class="space-y-4 text-[#d0d0d0] text-sm md:text-base leading-relaxed">
+                        <ul class="space-y-4 text-[#d0d0d0] text-sm md:text-base leading-relaxed" style="text-align: justify;">
                             @foreach($missionPoints as $point)
                             <li class="relative pl-6">
                                 <span aria-hidden="true" class="absolute left-0 top-0 text-[#d0d0d0]/90">•</span>
