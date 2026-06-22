@@ -327,7 +327,7 @@ return [
             'phone_label' => 'T',
             'fax_label' => 'F',
             'disclaimer_text1' => 'PT Artomoro Prima Internasional adalah integrator sistem teknologi pertahanan yang melayani pemerintah, pertahanan, dan perusahaan strategis di Indonesia.',
-            'disclaimer_text2' => 'Kami menyediakan solusi teknologi terintegrasi, aman, dan berkelanjutan untuk kedaulatan nasional dan kebutuhan yang kritis.',
+            'disclaimer_text2' => 'Kami menyediakan solusi teknologi terintegrasi, aman, dan berkelanjutan untuk kedaulatan nasional dan operasional berprioritas tinggi.',
         ],
     ],
 
