@@ -326,8 +326,8 @@ return [
             'office_address' => "Sopo Del Office Towers & Lifestyle\nTower B, Lt. 18\nJl. Mega Kuningan Barat III, Lot 10, 1-6\nKawasan Mega Kuningan, Kuningan Timur, Setiabudi\nJakarta Selatan, DKI Jakarta 12950",
             'phone_label' => 'T',
             'fax_label' => 'F',
-            'disclaimer_text1' => 'PT Artomoro Prima Internasional adalah integrator sistem teknologi pertahanan yang melayani pemerintah, pertahanan, dan perusahaan strategis di Indonesia.',
-            'disclaimer_text2' => 'Kami menyediakan solusi teknologi terintegrasi, aman, dan berkelanjutan untuk kedaulatan nasional dan operasional berprioritas tinggi.',
+            'disclaimer_text1' => 'ARTO PRIMA (PT Artomoro Prima Internasional) adalah integrator sistem teknologi yang melayani sektor strategis di Indonesia.',
+            'disclaimer_text2' => 'Kami menyediakan solusi teknologi yang terintegrasi, aman, dan berkelanjutan untuk kedaulatan nasional dan operasional berprioritas tinggi.',
         ],
     ],
 
