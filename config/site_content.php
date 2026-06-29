@@ -122,81 +122,123 @@ return [
     'solutions' => [
         'items' => [
             [
-                'image' => 'images/solutions/secure-network.jpg',
+                'image' => 'images/solutions/perimeter-security.png',
                 'en' => [
-                    'title' => 'Secure Network & Data Centers',
-                    'description' => 'Building a foundation of stable, efficient, and securely layered enterprise-level network infrastructure. We design encrypted network architectures and high-standard data center facilities to ensure your business operations run non-stop, are scalable, and are highly resistant to system interruptions.',
-                    'points' => ['Stable and encrypted Site-to-Site Connectivity', 'Centralized network management & Flexible Access', 'Efficient and consolidated IT Infrastructure', 'Primary and Backup Data Center Facilities'],
+                    'title' => 'Perimeter Security & Surveillance',
+                    'description' => 'Protect your physical assets with comprehensive surveillance systems. We integrate cutting-edge CCTV, precise access control, and AI-based analytics for early threat detection and seamless perimeter security.',
+                    'points' => ['CCTV and video analytics systems', 
+                        'Access control', 
+                        'Public address systems', 
+                        'Traditional and AI-based surveillance'],
                 ],
                 'id' => [
-                    'title' => 'Jaringan Aman & Pusat Data',
-                    'description' => 'Membangun fondasi infrastruktur jaringan tingkat enterprise yang stabil, efisien, dan terlindungi secara berlapis. Kami merancang arsitektur jaringan terenkripsi dan fasilitas pusat data berstandar tinggi untuk memastikan operasional bisnis Anda berjalan tanpa henti, skalabel, dan sangat tahan terhadap gangguan sistem.',
-                    'points' => ['Konektivitas Antar Lokasi yang Stabil dan Terenkripsi', 'Manajemen Jaringan Terpusat dan Fleksibel', 'Infrastruktur IT yang Efisien dan Terkonsolidasi', 'Fasilitas Data Center Primer dan Cadangan'],
+                    'title' => 'Keamanan Perimeter & Pengawasan',
+                    'description' => 'Lindungi aset fisik Anda dengan sistem pengawasan menyeluruh. Kami mengintegrasikan CCTV mutakhir, kontrol akses presisi, dan analitik berbasis AI untuk deteksi ancaman dini dan keamanan perimeter tanpa celah.',
+                    'points' => ['Sistem CCTV dan video analitik', 
+                        'Kontrol akses', 
+                        'Sistem publik address', 
+                        'Pengawasan tradisional dan berbasis AI'],
                 ],
             ],
             [
-                'image' => 'images/solutions/cybersecurity.jpg',
+                'image' => 'images/solutions/secure-network.jpg',
                 'en' => [
-                    'title' => 'Cybersecurity & Zero-Trust',
-                    'description' => 'Comprehensive cybersecurity protection with a Zero Trust approach to secure your critical digital assets. We provide proactive threat detection capabilities, strict access management, and automatic incident response to mitigate modern cyber attack risks and prevent strategic data leaks.',
-                    'points' => ['Security Operations Center', 'Incident Detection and Automatic Response', 'Identity and Access Management', 'Data Leakage Prevention', 'Incident Response Services'],
+                    'title' => 'Data Center Facilities',
+                    'description' => 'Resilient physical infrastructure to ensure your server\'s operational continuity. We design and implement high-standard HVAC, precision power, and fire mitigation systems for mission-critical data centers.',
+                    'points' => 
+                        ['Electrical panels and distribution', 
+                        'Fire detection & suppression systems', 
+                        'Cooling and HVAC', 
+                        'Structured cabling infrastructure'],
                 ],
                 'id' => [
-                    'title' => 'Keamanan Siber & Arsitektur Zero Trust',
-                    'description' => 'Perlindungan siber komprehensif dengan pendekatan Zero Trust untuk mengamankan aset digital kritis Anda. Kami menyediakan kapabilitas deteksi ancaman proaktif, manajemen akses yang ketat, dan respons insiden otomatis guna memitigasi risiko serangan siber modern serta mencegah kebocoran data strategis.',
-                    'points' => ['Pemantauan Ancaman Berkelanjutan', 'Deteksi & Respons Insiden Otomatis', 'Manajemen Identitas dan Hak Akses', 'Pencegahan Kebocoran Data', 'Layanan Penanganan Insiden Siber'],
+                    'title' => 'Fasilitas Pusat Data',
+                    'description' => 'Infrastruktur fisik yang tangguh untuk menjamin keberlangsungan operasional server Anda. Kami merancang dan mengimplementasikan sistem HVAC, daya presisi, serta mitigasi kebakaran berstandar tinggi untuk pusat data mission-critical.',
+                    'points' => [
+                        'Panel dan distribusi kelistrikan', 
+                        'Sistem deteksi dan pemadam kebakaran', 
+                        'Pendinginan dan tata udara (HVAC)', 
+                        'Infrastruktur pengkabelan terstruktur'],
                 ],
             ],
             [
                 'image' => 'images/solutions/command-control.png',
                 'en' => [
-                    'title' => 'Command, Control, and Oversight',
+                    'title' => 'Command Center & Operational Communication',
                     'description' => 'An integrated command center providing comprehensive and real-time field data visibility. Our solution unifies diverse communication streams, geospatial data, and intelligent sensors into a single operational space, empowering you to achieve full situational awareness and accelerate tactical decision-making.',
-                    'points' => ['Command center', 'Large scale operational data visualization', 'Geospatial and field data integration', 'Cross functional communications coordination', 'Real time sensor and UAV data aggregation'],
+                    'points' => [
+                        'Control room design and construction', 
+                        'Video wall integration', 
+                        'Radio and communication systems (HT/PoC)', 
+                        'Mission-specific operational layout'],
                 ],
                 'id' => [
-                    'title' => 'Pusat Kendali dan Pemantauan Terpadu',
+                    'title' => 'Command Center & Komunikasi Operasional',
                     'description' => 'Pusat komando terintegrasi yang menyajikan visibilitas data lapangan secara komprehensif dan seketika (real-time). Solusi kami menyatukan berbagai aliran komunikasi, data geospasial, dan sensor cerdas ke dalam satu ruang operasi, memberdayakan Anda untuk mencapai kesadaran situasional penuh dan mempercepat pengambilan keputusan taktis.',
-                    'points' => ['Ruangan operasi terpadu', 'Visualisasi data operasional skala besar', 'Integrasi data geospasial dan lapangan', 'Koordinasi komunikasi lintas fungsi', 'Agregasi data sensor dan UAV secara real-time'],
+                    'points' => [
+                        'Desain dan pembangunan ruang kendali', 
+                        'Integrasi video wall', 
+                        'Sistem radio dan komunikasi (HT/PoC)', 
+                        'Tata letak operasional sesuai misi'],
                 ],
             ],
             [
-                'image' => 'images/solutions/cloud-platform.jpg',
+                'image' => 'images/solutions/laptop-workstation.jpg',
                 'en' => [
-                    'title' => 'Cloud & Platform Engineering',
-                    'description' => 'Build a resilient and adaptive digital ecosystem. We design, implement, and manage cloud architectures while modernizing your applications, ensuring optimal system performance, low latency, and infrastructure readiness for large-scale operational workloads.',
-                    'points' => ['Private/Hybrid Cloud', 'Cloud Native App', 'Managed Cloud Service'],
+                    'title' => 'Server, ICT & Workstations',
+                    'description' => '',
+                    'points' => [
+                        'Servers and standard ICT infrastructure', 
+                        'Laptops and workstations', 
+                        'Procurement of operational support equipment'],
                 ],
                 'id' => [
-                    'title' => 'Solusi Cloud dan Platform',
-                    'description' => 'Bangun ekosistem digital yang tangguh dan adaptif. Kami mendesain, mengimplementasikan, hingga mengelola arsitektur cloud serta memodernisasi aplikasi Anda, memastikan performa sistem yang selalu optimal, latensi rendah, dan kesiapan infrastruktur untuk menangani beban kerja operasional berskala besar.',
-                    'points' => ['Private/Hybrid Cloud', 'Modernisasi Aplikasi', 'Layanan Kelola Cloud'],
+                    'title' => 'Server, ICT & Perangkat Kerja',
+                    'description' => '',
+                    'points' => [
+                        'Server dan infrastruktur ICT standar', 
+                        'Laptop dan workstation', 
+                        'Pengadaan perangkat pendukung operasional'],
                 ],
             ],
             [
-                'image' => 'images/solutions/data-ai.jpg',
+                'image' => 'images/solutions/audio-visual.png',
                 'en' => [
-                    'title' => 'Data & AI Analytics',
+                    'title' => 'Display & Audio Systems',
                     'description' => 'Transform complex raw data streams into actionable intelligence. Through real-time analytics processing and interactive smart dashboard visualizations, our platform empowers leadership to extract strategic insights for faster and more precise operational responses.',
-                    'points' => ['Real-time analytics', 'Interactive dashboards and platforms'],
+                    'points' => [
+                        'Videotron and LED panels (COB/SMD)', 
+                        'Audio conference systems', 
+                        'Microphones and DSP'],
                 ],
                 'id' => [
-                    'title' => 'Data & Analitik AI',
+                    'title' => 'Sistem Visual & Audio',
                     'description' => 'Ubah aliran data mentah yang kompleks menjadi intelijen yang dapat ditindaklanjuti (actionable intelligence). Melalui pemrosesan analitik real-time dan visualisasi pada dasbor cerdas interaktif, platform kami membantu jajaran manajemen mengekstraksi wawasan strategis untuk mendukung respons operasional yang lebih cepat dan presisi.',
-                    'points' => ['Analitik Data Real-Time', 'Platform dan Dashboard Interaktif'],
+                    'points' => [
+                        'Videotron dan panel LED (COB/SMD)', 
+                        'Sistem audio konferensi', 
+                        'Mikrofon dan DSP'],
                 ],
             ],
             [
                 'image' => 'images/solutions/infrastruktur-jaringan.jpg',
                 'en' => [
-                    'title' => 'Network Infrastructure & Connectivity',
+                    'title' => 'Network & Infrastructure Security',
                     'description' => 'Your operational backbone starts with a reliable physical infrastructure. We provide end-to-end hardware integration services, ranging from the deployment of structured cabling systems, installation of high-speed connectivity terminals, to the unification of communication networks, ensuring no blind spots within your field operations.',
-                    'points' => ['Network devices implementation', 'Data cabling infrastructure', 'Communication device integration'],
+                    'points' => [
+                        'Networking devices and installation', 
+                        'Data cabling infrastructure', 
+                        'Firewall and proxy', 
+                        'Terrestrial connectivity and satellite terminals'],
                 ],
                 'id' => [
-                    'title' => 'Infrastruktur Jaringan & Konektivitas',
+                    'title' => 'Jaringan & Keamanan Infrastruktur',
                     'description' => 'Tulang punggung operasional Anda bermula dari infrastruktur fisik yang andal. Kami menghadirkan layanan integrasi perangkat keras end-to-end, mulai dari penggelaran sistem pengkabelan terstruktur, instalasi terminal konektivitas berkecepatan tinggi, hingga penyatuan jaringan komunikasi untuk memastikan tidak ada titik buta (blank spot) dalam area operasi lapangan.',
-                    'points' => ['Pengadaan & Instalasi Perangkat Jaringan', 'Infrastruktur Kabel Data', 'Integrasi Perangkat Komunikasi'],
+                    'points' => [
+                        'Perangkat dan instalasi networking', 
+                        'Infrastruktur kabel data', 
+                        'Firewall dan proxy', 
+                        'Konektivitas terestrial dan terminal satelit'],
                 ],
             ],
         ],
