@@ -122,7 +122,7 @@ return [
     'solutions' => [
         'items' => [
             [
-                'image' => 'images/solutions/perimeter-security.png',
+                'image' => 'images/solutions/perimeter-security.jpg',
                 'en' => [
                     'title' => 'Perimeter Security & Surveillance',
                     'description' => 'Protect your physical assets with comprehensive surveillance systems. We integrate cutting-edge CCTV, precise access control, and AI-based analytics for early threat detection and seamless perimeter security.',
@@ -202,7 +202,7 @@ return [
                 ],
             ],
             [
-                'image' => 'images/solutions/audio-visual.png',
+                'image' => 'images/solutions/audio-visual.jpg',
                 'en' => [
                     'title' => 'Display & Audio Systems',
                     'description' => 'Transform complex raw data streams into actionable intelligence. Through real-time analytics processing and interactive smart dashboard visualizations, our platform empowers leadership to extract strategic insights for faster and more precise operational responses.',
