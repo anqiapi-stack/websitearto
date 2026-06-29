@@ -194,7 +194,7 @@ return [
                 ],
                 'id' => [
                     'title' => 'Server, ICT & Perangkat Kerja',
-                    'description' => '',
+                    'description' => 'Kami menghadirkan fondasi komputasi yang tangguh untuk mendukung produktivitas organisasi Anda. Dari pengadaan server berkinerja tinggi hingga workstation yang dirancang khusus untuk kebutuhan operasional harian, solusi kami memastikan setiap perangkat terintegrasi dengan sempurna untuk mencapai efisiensi kerja maksimal.',
                     'points' => [
                         'Server dan infrastruktur ICT standar', 
                         'Laptop dan workstation', 
