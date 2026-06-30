@@ -169,8 +169,7 @@ return [
                     'points' => [
                         'Control room design and construction', 
                         'Video wall integration', 
-                        'Radio and communication systems (HT/PoC)', 
-                        'Mission-specific operational layout'],
+                        'Radio and communication systems (HT/PoC)'],
                 ],
                 'id' => [
                     'title' => 'Command Center & Komunikasi Operasional',
@@ -178,27 +177,24 @@ return [
                     'points' => [
                         'Desain dan pembangunan ruang kendali', 
                         'Integrasi video wall', 
-                        'Sistem radio dan komunikasi (HT/PoC)', 
-                        'Tata letak operasional sesuai misi'],
+                        'Sistem radio dan komunikasi (HT/PoC)'],
                 ],
             ],
             [
                 'image' => 'images/solutions/laptop-workstation.jpg',
                 'en' => [
-                    'title' => 'Server, ICT & Workstations',
-                    'description' => '',
+                    'title' => 'Server & Workstations',
+                    'description' => 'We provide robust computing devices and servers to support your organization\'s productivity. From high-performance server procurement to workstations specifically designed for daily operational needs, our solutions ensure every device integrates perfectly to achieve maximum work efficiency.',
                     'points' => [
-                        'Servers and standard ICT infrastructure', 
-                        'Laptops and workstations', 
-                        'Procurement of operational support equipment'],
+                        'Servers and standard IT infrastructure', 
+                        'Laptops and workstations'],
                 ],
                 'id' => [
-                    'title' => 'Server, ICT & Perangkat Kerja',
-                    'description' => 'Kami menghadirkan fondasi komputasi yang tangguh untuk mendukung produktivitas organisasi Anda. Dari pengadaan server berkinerja tinggi hingga workstation yang dirancang khusus untuk kebutuhan operasional harian, solusi kami memastikan setiap perangkat terintegrasi dengan sempurna untuk mencapai efisiensi kerja maksimal.',
+                    'title' => 'Server & Perangkat Kerja',
+                    'description' => 'Kami menyediakan perangkat kerja dan server yang tangguh untuk mendukung produktivitas organisasi Anda. Dari pengadaan server berkinerja tinggi hingga workstation yang dirancang khusus untuk kebutuhan operasional harian, solusi kami memastikan setiap perangkat terintegrasi dengan sempurna untuk mencapai efisiensi kerja maksimal.',
                     'points' => [
-                        'Server dan infrastruktur ICT standar', 
-                        'Laptop dan workstation', 
-                        'Pengadaan perangkat pendukung operasional'],
+                        'Server dan infrastruktur TI standar', 
+                        'Laptop dan workstation'],
                 ],
             ],
             [
@@ -207,17 +203,15 @@ return [
                     'title' => 'Display & Audio Systems',
                     'description' => 'Transform complex raw data streams into actionable intelligence. Through real-time analytics processing and interactive smart dashboard visualizations, our platform empowers leadership to extract strategic insights for faster and more precise operational responses.',
                     'points' => [
-                        'Videotron and LED panels (COB/SMD)', 
-                        'Audio conference systems', 
-                        'Microphones and DSP'],
+                        'Videotron and LED panels', 
+                        'Audio Systems and Microphone for Conference'],
                 ],
                 'id' => [
                     'title' => 'Sistem Visual & Audio',
                     'description' => 'Ubah aliran data mentah yang kompleks menjadi intelijen yang dapat ditindaklanjuti (actionable intelligence). Melalui pemrosesan analitik real-time dan visualisasi pada dasbor cerdas interaktif, platform kami membantu jajaran manajemen mengekstraksi wawasan strategis untuk mendukung respons operasional yang lebih cepat dan presisi.',
                     'points' => [
-                        'Videotron dan panel LED (COB/SMD)', 
-                        'Sistem audio konferensi', 
-                        'Mikrofon dan DSP'],
+                        'Videotron dan panel LED', 
+                        'Sistem Audio dan Mikrofon untuk Konferensi'],
                 ],
             ],
             [
@@ -226,19 +220,19 @@ return [
                     'title' => 'Network & Infrastructure Security',
                     'description' => 'Your operational backbone starts with a reliable physical infrastructure. We provide end-to-end hardware integration services, ranging from the deployment of structured cabling systems, installation of high-speed connectivity terminals, to the unification of communication networks, ensuring no blind spots within your field operations.',
                     'points' => [
-                        'Networking devices and installation', 
+                        'Network devices', 
                         'Data cabling infrastructure', 
                         'Firewall and proxy', 
-                        'Terrestrial connectivity and satellite terminals'],
+                        'Connectivity Terminal (Starlink)'],
                 ],
                 'id' => [
-                    'title' => 'Jaringan & Keamanan Infrastruktur',
+                    'title' => 'Infrastruktur dan Keamanan Jaringan',
                     'description' => 'Tulang punggung operasional Anda bermula dari infrastruktur fisik yang andal. Kami menghadirkan layanan integrasi perangkat keras end-to-end, mulai dari penggelaran sistem pengkabelan terstruktur, instalasi terminal konektivitas berkecepatan tinggi, hingga penyatuan jaringan komunikasi untuk memastikan tidak ada titik buta (blank spot) dalam area operasi lapangan.',
                     'points' => [
-                        'Perangkat dan instalasi networking', 
+                        'Perangkat network', 
                         'Infrastruktur kabel data', 
                         'Firewall dan proxy', 
-                        'Konektivitas terestrial dan terminal satelit'],
+                        'Terminal Konektivitas (Starlink)'],
                 ],
             ],
         ],
